@@ -50,11 +50,13 @@
   position: absolute;
   top:205%;
   font-size: x-large;
+  padding-top: 10px;
 }
 .dailydose{
   position: absolute;
   top:260%;
   font-size: small;
+  padding-top: 10px;
 }
 .spotify-subscribe{
   position: relative;
@@ -137,6 +139,26 @@
 
 .m0{
   margin-right: 0;
+}
+
+.padt10{
+  transform: translateY(20px);
+}
+
+.padding-right{
+  padding-right: 90px;
+}
+
+.padding-left{
+  padding-left: 20px;
+}
+
+.padding-top{
+  padding-top: 24px;
+}
+
+.padding-bottom{
+  padding-bottom: 24px;
 }
 
 }
