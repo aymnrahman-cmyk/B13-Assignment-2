@@ -8,6 +8,38 @@
   .display-hamburger{
     display: unset;
 }
+.circle-size{
+  width: 10rem;
+  height: 10rem;
+  transform: translateX(5rem) translateY(7rem);
+}
+.mic-size{
+  width: 10%;
+  height: auto;
+  object-fit: contain;
+  transform: translateX(2.5rem) translateY(5.5rem); 
+}
+.new{
+  top: 7%;
+  left: 57%;
+}
+.techwave{
+  position: absolute;
+  top:205%;
+  font-size: x-large;
+}
+.dailydose{
+  position: absolute;
+  top:260%;
+  font-size: small;
+}
+.spotify-subscribe{
+  position: relative;
+  top: 150px;
+}
+.spotify{
+  font-size: small;
+}
 }
 
 @media (min-width: 576px){

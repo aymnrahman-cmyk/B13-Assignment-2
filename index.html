@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body class="font-[inter] custom-box">
+<body class="font-[inter]">
     <header>
         <main class="justify-center  bg-indigo-950 pb-[30px] pt-[30px] border-b border-purple-950 ">
             <div class="flex justify-around items-center">
@@ -30,28 +30,58 @@
         <section class="">
             <div class="relative object-cover">
                 <img class="w-full h-full object-cover" src="./assets/hero-bg.png" alt="">
-                <img class="absolute top-1/2 left-1/2 w-75 h-75 object-cover -translate-x-40 -translate-y-60" src="./assets/hero-circle.png" alt="">
-                <img class="absolute top-1/2 left-1/2 object-cover -translate-x-17 -translate-y-45" src="./assets/microphone.png" alt="">
-                <span class="rounded-full font-semibold bg-lime-300 py-2 px-4 absolute translate-y-[-475px] translate-x-[675px]">New</span>
+                <img class="circle-size absolute top-1/2 left-1/2 w-75 h-75 object-cover -translate-x-40 -translate-y-60" src="./assets/hero-circle.png" alt="">
+                <img class="mic-size absolute top-1/2 left-1/2 object-cover -translate-x-17 -translate-y-45" src="./assets/microphone.png" alt="">
+                <span class="rounded-full font-semibold bg-lime-300 py-2 px-4 absolute top-20 left-170 new">New</span>
             </div>
-            <div class="flex flex-col items-center text-center translate-y-[-200px]">
-                <p class="font-extrabold text-6xl mb-2 text-white">
+            <div class=" div-position flex flex-col items-center text-center translate-y-[-200px]">
+                <p class="font-extrabold text-6xl mb-2 text-white techwave">
                     TechWave
                 </p>
-                <p class="text-base font-normal  mb-6 text-white">
+                <p class="text-base font-normal  mb-6 text-white dailydose">
                     Your daily dose of tech insights, productivity hacks, and personal growth
                 </p>
-                <div class="flex gap-x-2">
+                <div class="flex gap-x-2 spotify-subscribe">
                     <div class="text-white flex font-semibold bg-gradient-to-t from-yellow-300 via-pink-500     to-purple-700 rounded-full p-3.5 text-base gap-x-1">
                         <img src="./assets/spotify.png" alt="">
-                        <p class="font-semibold">Listen on Spotify</p>
+                        <p class="font-semibold spotify">Listen on Spotify</p>
                     </div>
                     <div class="flex items-center border-2 rounded-full border-green-500 ">
-                        <img class="pb-[12px] pt-[12px] ml-5" src="./assets/message.png" alt=""><p class="text-green-500 ml-2 mr-5 font-semibold">Subscribe</p>
+                        <img class="pb-[12px] pt-[12px] ml-5" src="./assets/message.png" alt=""><p class="text-green-500 ml-2 mr-5 font-semibold spotify">Subscribe</p>
                     </div>
                 </div>
             </div>
         </section>
     </header>
+    <section class="bg-neutral-950 relative top-[-175px]">
+        <div class="pt-12">
+            <p class="text-center text-white font-bold text-5xl">About the Podcast</p>
+        <p class="text-center text-white pt-4 ">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+            We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+            and share stories of personal growth from industry leaders. <br>
+                <br>
+            Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+        </p>
+        </div>
+
+        <div class="text-white flex pt-40 text-center justify-center pb-30">
+            <div class="card pr-20">
+                <p class="font-black text-5xl text-lime-300">150K+</p>
+                <p>Monthly Listeners</p>
+            </div>
+            <div class="card pr-20">
+                <p class="font-black text-5xl text-lime-300">200+</p>
+                <p>Episodes Published</p>
+            </div>
+            <div class="card pr-20">
+                <p class="font-black text-5xl text-lime-300">4.9</p>
+                <p>Average Rating</p>
+            </div>
+            <div class="card">
+                <p class="font-black text-5xl text-lime-300">50+</p>
+                <p>Industry Experts</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
